@@ -3,4 +3,4 @@ project(Project_Euler C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Project_Euler main.c)
+add_executable(main main.c)

@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project_Euler
+# Target rules for targets named main
 
 # Build rule for target.
-Project_Euler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Project_Euler
-.PHONY : Project_Euler
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-Project_Euler/fast:
-	$(MAKE) -f CMakeFiles\Project_Euler.dir\build.make CMakeFiles/Project_Euler.dir/build
-.PHONY : Project_Euler/fast
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 main.obj: main.c.obj
 
@@ -128,7 +128,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\Project_Euler.dir\build.make CMakeFiles/Project_Euler.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -137,7 +137,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\Project_Euler.dir\build.make CMakeFiles/Project_Euler.dir/main.c.i
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -146,7 +146,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\Project_Euler.dir\build.make CMakeFiles/Project_Euler.dir/main.c.s
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -156,7 +156,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... Project_Euler
+	@echo ... main
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
