@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = "C:\Users\65495\Documents\Project Euler\cmake-build-debug"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,44 +110,124 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named pe1
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 main
-.PHONY : main
+pe1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pe1
+.PHONY : pe1
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+pe1/fast:
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/build
+.PHONY : pe1/fast
 
-main.obj: main.c.obj
+#=============================================================================
+# Target rules for targets named pe2
 
-.PHONY : main.obj
+# Build rule for target.
+pe2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pe2
+.PHONY : pe2
+
+# fast build rule for target.
+pe2/fast:
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/build
+.PHONY : pe2/fast
+
+#=============================================================================
+# Target rules for targets named pe3
+
+# Build rule for target.
+pe3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pe3
+.PHONY : pe3
+
+# fast build rule for target.
+pe3/fast:
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/build
+.PHONY : pe3/fast
+
+pe1.obj: pe1.c.obj
+
+.PHONY : pe1.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
-.PHONY : main.c.obj
+pe1.c.obj:
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/pe1.c.obj
+.PHONY : pe1.c.obj
 
-main.i: main.c.i
+pe1.i: pe1.c.i
 
-.PHONY : main.i
+.PHONY : pe1.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
-.PHONY : main.c.i
+pe1.c.i:
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/pe1.c.i
+.PHONY : pe1.c.i
 
-main.s: main.c.s
+pe1.s: pe1.c.s
 
-.PHONY : main.s
+.PHONY : pe1.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
-.PHONY : main.c.s
+pe1.c.s:
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/pe1.c.s
+.PHONY : pe1.c.s
+
+pe2.obj: pe2.c.obj
+
+.PHONY : pe2.obj
+
+# target to build an object file
+pe2.c.obj:
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/pe2.c.obj
+.PHONY : pe2.c.obj
+
+pe2.i: pe2.c.i
+
+.PHONY : pe2.i
+
+# target to preprocess a source file
+pe2.c.i:
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/pe2.c.i
+.PHONY : pe2.c.i
+
+pe2.s: pe2.c.s
+
+.PHONY : pe2.s
+
+# target to generate assembly for a file
+pe2.c.s:
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/pe2.c.s
+.PHONY : pe2.c.s
+
+pe3.obj: pe3.c.obj
+
+.PHONY : pe3.obj
+
+# target to build an object file
+pe3.c.obj:
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/pe3.c.obj
+.PHONY : pe3.c.obj
+
+pe3.i: pe3.c.i
+
+.PHONY : pe3.i
+
+# target to preprocess a source file
+pe3.c.i:
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/pe3.c.i
+.PHONY : pe3.c.i
+
+pe3.s: pe3.c.s
+
+.PHONY : pe3.s
+
+# target to generate assembly for a file
+pe3.c.s:
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/pe3.c.s
+.PHONY : pe3.c.s
 
 # Help Target
 help:
@@ -155,12 +235,20 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... main
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... pe1
+	@echo ... pe2
+	@echo ... pe3
+	@echo ... edit_cache
+	@echo ... pe1.obj
+	@echo ... pe1.i
+	@echo ... pe1.s
+	@echo ... pe2.obj
+	@echo ... pe2.i
+	@echo ... pe2.s
+	@echo ... pe3.obj
+	@echo ... pe3.i
+	@echo ... pe3.s
 .PHONY : help
 
 

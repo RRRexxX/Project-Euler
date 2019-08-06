@@ -64,39 +64,113 @@ CMAKE_SOURCE_DIR = "C:\Users\65495\Documents\Project Euler"
 CMAKE_BINARY_DIR = "C:\Users\65495\Documents\Project Euler\cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/pe1.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/pe1.dir/all:
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/depend
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target pe1"
+.PHONY : CMakeFiles/pe1.dir/all
 
 # Include target in all.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/pe1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/pe1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/pe1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/pe1.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
+pe1: CMakeFiles/pe1.dir/rule
 
-.PHONY : main
-
-# clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+.PHONY : pe1
 
 # clean rule for target.
-clean: CMakeFiles/main.dir/clean
+CMakeFiles/pe1.dir/clean:
+	$(MAKE) -f CMakeFiles\pe1.dir\build.make CMakeFiles/pe1.dir/clean
+.PHONY : CMakeFiles/pe1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pe1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pe2.dir
+
+# All Build rule for target.
+CMakeFiles/pe2.dir/all:
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/depend
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target pe2"
+.PHONY : CMakeFiles/pe2.dir/all
+
+# Include target in all.
+all: CMakeFiles/pe2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pe2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/pe2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pe2.dir/rule
+
+# Convenience name for target.
+pe2: CMakeFiles/pe2.dir/rule
+
+.PHONY : pe2
+
+# clean rule for target.
+CMakeFiles/pe2.dir/clean:
+	$(MAKE) -f CMakeFiles\pe2.dir\build.make CMakeFiles/pe2.dir/clean
+.PHONY : CMakeFiles/pe2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pe2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pe3.dir
+
+# All Build rule for target.
+CMakeFiles/pe3.dir/all:
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/depend
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target pe3"
+.PHONY : CMakeFiles/pe3.dir/all
+
+# Include target in all.
+all: CMakeFiles/pe3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pe3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/pe3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\65495\Documents\Project Euler\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/pe3.dir/rule
+
+# Convenience name for target.
+pe3: CMakeFiles/pe3.dir/rule
+
+.PHONY : pe3
+
+# clean rule for target.
+CMakeFiles/pe3.dir/clean:
+	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/clean
+.PHONY : CMakeFiles/pe3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pe3.dir/clean
 
 .PHONY : clean
 
