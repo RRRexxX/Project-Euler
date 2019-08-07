@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Project_Euler" targetName="pe4" />
       <config projectName="Project_Euler" targetName="pe1" />
       <config projectName="Project_Euler" targetName="pe2" />
       <config projectName="Project_Euler" targetName="pe3" />
@@ -14,9 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="414325d3-49fb-4d71-94f9-15c239bf0426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pe2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pe3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pe4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -25,8 +25,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project_Euler.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project_Euler.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/pe1.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -63,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.pe3">
+  <component name="RunManager" selected="CMake Application.pe4">
     <configuration name="pe1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_Euler" TARGET_NAME="pe1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_Euler" RUN_TARGET_NAME="pe1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -79,10 +78,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pe4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_Euler" TARGET_NAME="pe4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_Euler" RUN_TARGET_NAME="pe4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.pe1" />
       <item itemvalue="CMake Application.pe2" />
       <item itemvalue="CMake Application.pe3" />
+      <item itemvalue="CMake Application.pe4" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -98,6 +103,8 @@
       <workItem from="1564835917462" duration="625000" />
       <workItem from="1564842145206" duration="21000" />
       <workItem from="1565082783982" duration="3325000" />
+      <workItem from="1565098152275" duration="46000" />
+      <workItem from="1565172194057" duration="1496000" />
     </task>
     <servers />
   </component>

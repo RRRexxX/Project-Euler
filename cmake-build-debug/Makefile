@@ -148,6 +148,19 @@ pe3/fast:
 	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/build
 .PHONY : pe3/fast
 
+#=============================================================================
+# Target rules for targets named pe4
+
+# Build rule for target.
+pe4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pe4
+.PHONY : pe4
+
+# fast build rule for target.
+pe4/fast:
+	$(MAKE) -f CMakeFiles\pe4.dir\build.make CMakeFiles/pe4.dir/build
+.PHONY : pe4/fast
+
 pe1.obj: pe1.c.obj
 
 .PHONY : pe1.obj
@@ -229,6 +242,33 @@ pe3.c.s:
 	$(MAKE) -f CMakeFiles\pe3.dir\build.make CMakeFiles/pe3.dir/pe3.c.s
 .PHONY : pe3.c.s
 
+pe4.obj: pe4.c.obj
+
+.PHONY : pe4.obj
+
+# target to build an object file
+pe4.c.obj:
+	$(MAKE) -f CMakeFiles\pe4.dir\build.make CMakeFiles/pe4.dir/pe4.c.obj
+.PHONY : pe4.c.obj
+
+pe4.i: pe4.c.i
+
+.PHONY : pe4.i
+
+# target to preprocess a source file
+pe4.c.i:
+	$(MAKE) -f CMakeFiles\pe4.dir\build.make CMakeFiles/pe4.dir/pe4.c.i
+.PHONY : pe4.c.i
+
+pe4.s: pe4.c.s
+
+.PHONY : pe4.s
+
+# target to generate assembly for a file
+pe4.c.s:
+	$(MAKE) -f CMakeFiles\pe4.dir\build.make CMakeFiles/pe4.dir/pe4.c.s
+.PHONY : pe4.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -239,6 +279,7 @@ help:
 	@echo ... pe1
 	@echo ... pe2
 	@echo ... pe3
+	@echo ... pe4
 	@echo ... edit_cache
 	@echo ... pe1.obj
 	@echo ... pe1.i
@@ -249,6 +290,9 @@ help:
 	@echo ... pe3.obj
 	@echo ... pe3.i
 	@echo ... pe3.s
+	@echo ... pe4.obj
+	@echo ... pe4.i
+	@echo ... pe4.s
 .PHONY : help
 
 
